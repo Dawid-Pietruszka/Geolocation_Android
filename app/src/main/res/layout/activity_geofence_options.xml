@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeofenceOptionsActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#292b4d"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#787cba"
+        android:id="@+id/btnConfirm"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnConfirm"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/geo_Name"
+
+        android:background="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblName"
+        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"/>/>
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginRight="155dp"
+        android:text="@string/lblName"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#787cba"
+        android:id="@+id/btnCancel"
+        android:layout_width="116dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnCancel"
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnConfirm"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MobileAppDevCoursework</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="delete">Delete Selected</string>
+
+    <!-- View Geofence -->
+    <string name="check_data_title">Geofences:</string>
+
+    <!-- Geofence Options -->
+    <string name="geo_Name">Name</string>
+    <string name="lblName">Geofence name:</string>
+    <string name="btnConfirm">Confirm</string>
+    <string name="btnCancel">Cancel</string>
+
+    <!-- Main -->
+    <string name="btnAddGeofence">Add Geofence</string>
+    <string name="btnViewGeofence">View Geofences</string>
+    <string name="btnViewMap">View Map</string>
+    <string name="btnExit">Exit</string>
+
+    <!-- Map -->
+    <string name="search">Search...</string>
+
+    <!-- Notifications -->
+    <string name="geofence_Exit">Geofence Exit</string>
+    <string name="geofence_Exit_Desc">Now in Normal Mode</string>
+
+    <string name="geofence_Enter">Geofence Enter</string>
+
+    <string name="geofence_Dwell">Geofence Dwell</string>
+    <string name="geofence_Dwell_Desc">Your notifications are muted</string>
+
+    <string name="do_Not_Disturb_Title">Do Not Disturb Permission Required</string>
+    <string name="do_Not_Disturb_Desc">Please enable the Do Not Disturb permission for our app</string>
+</resources>

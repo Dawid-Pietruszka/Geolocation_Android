@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MobileAppDevCoursework</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="delete">Skasuj</string>
+    <string name="check_data_title">Strefy</string>
+    <string name="geo_Name">Nazwa</string>
+    <string name="lblName">Nazwa Strefy</string>
+    <string name="btnConfirm">Potwierdzaj</string>
+    <string name="btnCancel">Anuluj</string>
+    <string name="btnAddGeofence">Dodaj Strefę</string>
+    <string name="btnViewGeofence">Zobacz Strefy</string>
+    <string name="btnViewMap">Zobacz Mapę</string>
+    <string name="btnExit">Wyjście</string>
+    <string name="search">Szukaj</string>
+    <string name="geofence_Exit">Opuściłeś Stefę</string>
+    <string name="geofence_Exit_Desc">Tryb Normalny</string>
+    <string name="geofence_Enter">Weszłeś do strefy</string>
+    <string name="geofence_Dwell">Jesteś w strefie</string>
+    <string name="geofence_Dwell_Desc">Powiadomienia wyłączone</string>
+    <string name="do_Not_Disturb_Title">Wymagana jest zgoda Nie przeszkadzać</string>
+    <string name="do_Not_Disturb_Desc">Włącz zezwolenie Nie przeszkadzać</string>
+</resources>
